@@ -4,10 +4,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 core = ov.Core()
-model_face = core.read_model(model='models/v3-small_224_1.0_float.xml')
-compiled_model_face = core.compile_model(model = model_face, device_name="CPU")
-input_layer_face = compiled_model_face.input(0)
-output_layer_face = compiled_model_face.output(0)
+model = core.read_model(model='models/v3-small_224_1.0_float.xml')
+compiled_model = core.compile_model(model = model, device_name="CPU")
+input_layer = compiled_model.input(0)
+output_layer = compiled_model.output(0)
 
 def preprocess(image, input_layer):
     N, input_channels, input_height, input_width = input_layer.shape
