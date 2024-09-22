@@ -18,7 +18,7 @@ def predict_image(image, conf_threshold):
     input_image = preprocess(image, input_layer)
     result_infer = compiled_model([input_image])[output_layer]
     result_index = np.argmax(result_infer)
-    imagenet_filename = "data/imagenet_2012.txt"
+    imagenet_filename = Path('data/imagenet_2012.txt')
     imagenet_classes = imagenet_filename.read_text().splitlines()
     imagenet_classes = ["background"] + imagenet_classes
     imagenet_classes = imagenet_classes[result_index]
