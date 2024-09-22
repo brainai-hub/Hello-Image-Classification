@@ -1,5 +1,5 @@
-streamlit==1.36.0
-openvino==2024.3.0
+streamlit
+openvino
 numpy==1.26.4
 matplotlib==3.9.1
 opencv-python-headless==4.10.0.84
