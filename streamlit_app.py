@@ -28,7 +28,8 @@ if source_radio == "IMAGE":
         uploaded_image_cv = cv2.cvtColor(numpy.array(uploaded_image), cv2.COLOR_RGB2BGR)
         imagenet_classes = utils.predict_image(uploaded_image_cv, conf_threshold = conf_threshold)
         st.image(uploaded_image_cv, channels = "BGR")
-        st.write("The result of running the AI inference on an image:", imagenet_classes)
+        st.markdown(f"<h2 style='color: blue;'><strong>The result of running the AI inference on an image:</strong></h2>", unsafe_allow_html=True)
+        st.write(imagenet_classes)
     else: 
         st.image("data/coco.jpg")
         st.write("Click on 'Browse Files' in the sidebar to run inference on an image." )
