@@ -3,8 +3,8 @@ https://www.image-net.org/challenges/LSVRC/2012/browse-synsets.php
 
 Synsets retained from ILSVRC2011
 
-n02119789: kit fox, Vulpes macrotis
-n02100735: English setter
+- n02119789: kit fox, Vulpes macrotis
+- n02100735: English setter
 n02096294: Australian terrier
 n02066245: grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus
 n02509815: lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens
