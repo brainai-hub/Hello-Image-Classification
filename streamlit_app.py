@@ -36,5 +36,5 @@ if source_radio == "IMAGE":
 if source_radio == "WEBCAM":
     image = camera_input_live()
     uploaded_image = PIL.Image.open(image)
-    uploaded_image_cv = cv2.cvtColor(numpy.array(uploaded_image), cv2.COLOR_BGR2RGB)
-    st.image(uploaded_image_cv, channels = "RGB")
+    uploaded_image_cv = cv2.cvtColor(numpy.array(uploaded_image), cv2.COLOR_RGB2BGR)
+    st.image(uploaded_image_cv, channels = "BGR")
