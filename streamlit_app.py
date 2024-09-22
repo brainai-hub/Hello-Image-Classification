@@ -1,80 +1,17 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # Hello Image Classification
-# 
-# This basic introduction to OpenVINO™ shows how to do inference with an image classification model.
-# 
-# A pre-trained [MobileNetV3 model](https://github.com/openvinotoolkit/open_model_zoo/blob/master/models/public/mobilenet-v3-small-1.0-224-tf/README.md) from [Open Model Zoo](https://github.com/openvinotoolkit/open_model_zoo/) is used in this tutorial. For more information about how OpenVINO IR models are created, refer to the [TensorFlow to OpenVINO](../tensorflow-classification-to-openvino/tensorflow-classification-to-openvino.ipynb) tutorial.
-# 
-# 
-# #### Table of contents:
-# 
-# - [Imports](#Imports)
-# - [Download the Model and data samples](#Download-the-Model-and-data-samples)
-# - [Select inference device](#Select-inference-device)
-# - [Load the Model](#Load-the-Model)
-# - [Load an Image](#Load-an-Image)
-# - [Do Inference](#Do-Inference)
-# 
-# 
-# ### Installation Instructions
-# 
-# This is a self-contained example that relies solely on its own code.
-# 
-# We recommend  running the notebook in a virtual environment. You only need a Jupyter server to start.
-# For details, please refer to [Installation Guide](https://github.com/openvinotoolkit/openvino_notebooks/blob/latest/README.md#-installation-guide).
-# 
-# <img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=5b5a4db0-7875-4bfb-bdbd-01698b5b1a77&file=notebooks/hello-world/hello-world.ipynb" />
-# 
-
-# ## Imports
-# [back to top ⬆️](#Table-of-contents:)
-# 
-
-# In[1]:
-
-
+import streamlit as st
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 import openvino as ov
 
-# ## Select inference device
-# [back to top ⬆️](#Table-of-contents:)
-# 
-# select device from dropdown list for running inference using OpenVINO
+st.set_page_config(
+    page_title="Hello Image Classification",
+    page_icon=":sun_with_face:",
+    layout="centered",
+    initial_sidebar_state="expanded",)
 
-# In[3]:
+st.title("Emotion Detection :sun_with_face:")
 
-
-core = ov.Core()
-
-device = widgets.Dropdown(
-    options=core.available_devices + ["AUTO"],
-    value="AUTO",
-    description="Device:",
-    disabled=False,
-)
-
-device
-
-
-# ## Load the Model
-# [back to top ⬆️](#Table-of-contents:)
-# 
-
-# In[4]:
-
-
-core = ov.Core()
-
-model_xml_path="./artifacts/v3-small_224_1.0_float.xml"
-
-model = core.read_model(model=model_xml_path)
-compiled_model = core.compile_model(model=model, device_name=device.value)
-
-output_layer = compiled_model.output(0)
 
 
 # ## Load an Image
