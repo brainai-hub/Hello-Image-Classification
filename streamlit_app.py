@@ -29,6 +29,7 @@ if source_radio == "IMAGE":
         imagenet_classes = utils.predict_image(uploaded_image_cv, conf_threshold = conf_threshold)
         st.image(uploaded_image_cv, channels = "BGR")
         st.markdown(f"<h4 style='color: blue;'><strong>The result of running the AI inference on an image:</strong></h4>", unsafe_allow_html=True)
+        st.markdown(f"<h3 style='color: blue;'>{', '.join(imagenet_classes)}</h3>", unsafe_allow_html=True)
         st.write(imagenet_classes)
     else: 
         st.image("data/coco.jpg")
