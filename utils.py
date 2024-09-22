@@ -1,6 +1,7 @@
 import openvino as ov
 import cv2
 import numpy as np
+from pathlib import Path
 
 core = ov.Core()
 model = core.read_model(model='models/v3-small_224_1.0_float.xml')
@@ -19,7 +20,8 @@ def predict_image(image, conf_threshold):
     input_image = preprocess(image, input_layer)
     result_infer = compiled_model([input_image])[output_layer]
     result_index = np.argmax(result_infer)
+    imagenet_filename = "data/imagenet_2012.txt"
     imagenet_classes = imagenet_filename.read_text().splitlines()
     imagenet_classes = ["background"] + imagenet_classes
-    imagenet_classes[result_index]
-    return 
+    imagenet_classes = imagenet_classes[result_index]
+    return imagenet_classes
