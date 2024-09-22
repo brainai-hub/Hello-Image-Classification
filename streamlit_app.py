@@ -12,17 +12,18 @@ st.set_page_config(
 
 st.title("Hello Image Classification :sun_with_face:")
 
+st.sidebar.header("Type")
+source_radio = st.sidebar.radio("Select Source", ["IMAGE", "WEBCAM"])
 
+st.sidebar.header("Confidence")
+conf_threshold = float(st.sidebar.slider("Select the Confidence Threshold", 10, 100, 20))/100
 
-# ## Load an Image
-# [back to top ⬆️](#Table-of-contents:)
-# 
-
-# In[5]:
-
+input = None 
+if source_radio == "IMAGE":
+    st.sidebar.header("Upload")
+    input = st.sidebar.file_uploader("Choose an image.", type=("jpg", "png"))
 
 image_filename = "data/coco.jpg"
-# The MobileNet model expects images in RGB format.
 image = cv2.cvtColor(cv2.imread(filename=str(image_filename)), code=cv2.COLOR_BGR2RGB)
 
 # Resize to MobileNet image shape.
