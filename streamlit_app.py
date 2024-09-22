@@ -22,6 +22,14 @@ input = None
 if source_radio == "IMAGE":
     st.sidebar.header("Upload")
     input = st.sidebar.file_uploader("Choose an image.", type=("jpg", "png"))
+    if input is not None:
+        uploaded_image = PIL.Image.open(input)
+        uploaded_image_cv = cv2.cvtColor(numpy.array(uploaded_image), cv2.COLOR_RGB2BGR)
+        visualized_image = utils.predict_image(uploaded_image_cv, conf_threshold = conf_threshold)
+        st.image(visualized_image, channels = "BGR")
+    else: 
+        st.image("data/coco.jpg")
+        st.write("Click on 'Browse Files' in the sidebar to run inference on an image." )
 
 image_filename = "data/coco.jpg"
 image = cv2.cvtColor(cv2.imread(filename=str(image_filename)), code=cv2.COLOR_BGR2RGB)
