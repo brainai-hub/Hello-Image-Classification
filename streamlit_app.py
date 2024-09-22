@@ -40,21 +40,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import openvino as ov
 
-
-# In[2]:
-
-
-# Version Check
-import sys, matplotlib
-import ipywidgets as widgets
-print("python==",sys.version)
-print("numpy==",np.__version__)
-print("opencv-python==",cv2.__version__)
-print("matplotlib==",matplotlib.__version__)
-print("openvino==",ov.__version__)
-print("device_widget==",widgets.__version__)
-
-
 # ## Select inference device
 # [back to top ⬆️](#Table-of-contents:)
 # 
