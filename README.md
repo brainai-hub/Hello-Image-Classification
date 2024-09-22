@@ -1,125 +1,126 @@
 ImageNet Large Scale Visual Recognition Challenge 2012 (ILSVRC2012)
+
 https://www.image-net.org/challenges/LSVRC/2012/browse-synsets.php 
 
 Synsets retained from ILSVRC2011
 
 - n02119789: kit fox, Vulpes macrotis
 - n02100735: English setter
-n02096294: Australian terrier
-n02066245: grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus
-n02509815: lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens
-n02124075: Egyptian cat
-n02417914: ibex, Capra ibex
-n02123394: Persian cat
-n02125311: cougar, puma, catamount, mountain lion, painter, panther, Felis concolor
-n02423022: gazelle
-n02346627: porcupine, hedgehog
-n02077923: sea lion
-n02447366: badger
-n02109047: Great Dane
-n02092002: Scottish deerhound, deerhound
-n02071294: killer whale, killer, orca, grampus, sea wolf, Orcinus orca
-n02442845: mink
-n02504458: African elephant, Loxodonta africana
-n02114712: red wolf, maned wolf, Canis rufus, Canis niger
-n02128925: jaguar, panther, Panthera onca, Felis onca
-n02117135: hyena, hyaena
-n02493509: titi, titi monkey
-n02457408: three-toed sloth, ai, Bradypus tridactylus
-n02389026: sorrel
-n02443484: black-footed ferret, ferret, Mustela nigripes
-n02110341: dalmatian, coach dog, carriage dog
-n02093256: Staffordshire bullterrier, Staffordshire bull terrier
-n02106382: Bouvier des Flandres, Bouviers des Flandres
-n02441942: weasel
-n02113712: miniature poodle
-n02415577: bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis
-n02356798: fox squirrel, eastern fox squirrel, Sciurus niger
-n02488702: colobus, colobus monkey
-n02123159: tiger cat
-n02422699: impala, Aepyceros melampus
-n02114855: coyote, prairie wolf, brush wolf, Canis latrans
-n02094433: Yorkshire terrier
-n02111277: Newfoundland, Newfoundland dog
-n02119022: red fox, Vulpes vulpes
-n02422106: hartebeest
-n02120505: grey fox, gray fox, Urocyon cinereoargenteus
-n02086079: Pekinese, Pekingese, Peke
-n02484975: guenon, guenon monkey
-n02137549: mongoose
-n02500267: indri, indris, Indri indri, Indri brevicaudatus
-n02129604: tiger, Panthera tigris
-n02396427: wild boar, boar, Sus scrofa
-n02391049: zebra
-n02412080: ram, tup
-n02480495: orangutan, orang, orangutang, Pongo pygmaeus
-n02110806: basenji
-n02128385: leopard, Panthera pardus
-n02100583: vizsla, Hungarian pointer
-n02494079: squirrel monkey, Saimiri sciureus
-n02123597: Siamese cat, Siamese
-n02481823: chimpanzee, chimp, Pan troglodytes
-n02105505: komondor
-n02489166: proboscis monkey, Nasalis larvatus
-n02364673: guinea pig, Cavia cobaya
-n02114548: white wolf, Arctic wolf, Canis lupus tundrarum
-n02134084: ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus
-n02480855: gorilla, Gorilla gorilla
-n02403003: ox
-n02108551: Tibetan mastiff
-n02493793: spider monkey, Ateles geoffroyi
-n02107142: Doberman, Doberman pinscher
-n02397096: warthog
-n02437312: Arabian camel, dromedary, Camelus dromedarius
-n02483708: siamang, Hylobates syndactylus, Symphalangus syndactylus
-n02099601: golden retriever
-n02106166: Border collie
-n02326432: hare
-n02108089: boxer
-n02486261: patas, hussar monkey, Erythrocebus patas
-n02486410: baboon
-n02487347: macaque
-n02492035: capuchin, ringtail, Cebus capucinus
-n02099267: flat-coated retriever
-n02395406: hog, pig, grunter, squealer, Sus scrofa
-n02109961: Eskimo dog, husky
-n02101388: Brittany spaniel
-n03187595: dial telephone, dial phone
-n03733281: maze, labyrinth
-n02101006: Gordon setter
-n02115641: dingo, warrigal, warragal, Canis dingo
-n02342885: hamster
-n02120079: Arctic fox, white fox, Alopex lagopus
-n02408429: water buffalo, water ox, Asiatic buffalo, Bubalus bubalis
-n02133161: American black bear, black bear, Ursus americanus, Euarctos americanus
-n02328150: Angora, Angora rabbit
-n02410509: bison
-n02492660: howler monkey, howler
-n02398521: hippopotamus, hippo, river horse, Hippopotamus amphibius
-n02510455: giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca
-n02123045: tabby, tabby cat
-n02490219: marmoset
-n02109525: Saint Bernard, St Bernard
-n02454379: armadillo
-n02090379: redbone
-n02443114: polecat, fitch, foulmart, foumart, Mustela putorius
-n02361337: marmot
-n02483362: gibbon, Hylobates lar
-n02437616: llama
-n02325366: wood rabbit, cottontail, cottontail rabbit
-n02129165: lion, king of beasts, Panthera leo
-n02100877: Irish setter, red setter
-n02074367: dugong, Dugong dugon
-n02504013: Indian elephant, Elephas maximus
-n02363005: beaver
-n02497673: Madagascar cat, ring-tailed lemur, Lemur catta
-n02087394: Rhodesian ridgeback
-n02127052: lynx, catamount
-n02116738: African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus
-n02488291: langur
-n02114367: timber wolf, grey wolf, gray wolf, Canis lupus
-n02130308: cheetah, chetah, Acinonyx jubatus
-n02134418: sloth bear, Melursus ursinus, Ursus ursinus
+- n02096294: Australian terrier
+- n02066245: grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus
+- n02509815: lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens
+- n02124075: Egyptian cat
+- n02417914: ibex, Capra ibex
+- n02123394: Persian cat
+- n02125311: cougar, puma, catamount, mountain lion, painter, panther, Felis concolor
+- n02423022: gazelle
+- n02346627: porcupine, hedgehog
+- n02077923: sea lion
+- n02447366: badger
+- n02109047: Great Dane
+- n02092002: Scottish deerhound, deerhound
+- n02071294: killer whale, killer, orca, grampus, sea wolf, Orcinus orca
+- n02442845: mink
+- n02504458: African elephant, Loxodonta africana
+- n02114712: red wolf, maned wolf, Canis rufus, Canis niger
+- n02128925: jaguar, panther, Panthera onca, Felis onca
+- n02117135: hyena, hyaena
+- n02493509: titi, titi monkey
+- n02457408: three-toed sloth, ai, Bradypus tridactylus
+- n02389026: sorrel
+- n02443484: black-footed ferret, ferret, Mustela nigripes
+- n02110341: dalmatian, coach dog, carriage dog
+- n02093256: Staffordshire bullterrier, Staffordshire bull terrier
+- n02106382: Bouvier des Flandres, Bouviers des Flandres
+- n02441942: weasel
+- n02113712: miniature poodle
+- n02415577: bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis
+- n02356798: fox squirrel, eastern fox squirrel, Sciurus niger
+- n02488702: colobus, colobus monkey
+- n02123159: tiger cat
+- n02422699: impala, Aepyceros melampus
+- n02114855: coyote, prairie wolf, brush wolf, Canis latrans
+- n02094433: Yorkshire terrier
+- n02111277: Newfoundland, Newfoundland dog
+- n02119022: red fox, Vulpes vulpes
+- n02422106: hartebeest
+- n02120505: grey fox, gray fox, Urocyon cinereoargenteus
+- n02086079: Pekinese, Pekingese, Peke
+- n02484975: guenon, guenon monkey
+- n02137549: mongoose
+- n02500267: indri, indris, Indri indri, Indri brevicaudatus
+- n02129604: tiger, Panthera tigris
+- n02396427: wild boar, boar, Sus scrofa
+- n02391049: zebra
+- n02412080: ram, tup
+- n02480495: orangutan, orang, orangutang, Pongo pygmaeus
+- n02110806: basenji
+- n02128385: leopard, Panthera pardus
+- n02100583: vizsla, Hungarian pointer
+- n02494079: squirrel monkey, Saimiri sciureus
+- n02123597: Siamese cat, Siamese
+- n02481823: chimpanzee, chimp, Pan troglodytes
+- n02105505: komondor
+- n02489166: proboscis monkey, Nasalis larvatus
+- n02364673: guinea pig, Cavia cobaya
+- n02114548: white wolf, Arctic wolf, Canis lupus tundrarum
+- n02134084: ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus
+- n02480855: gorilla, Gorilla gorilla
+- n02403003: ox
+- n02108551: Tibetan mastiff
+- n02493793: spider monkey, Ateles geoffroyi
+- n02107142: Doberman, Doberman pinscher
+- n02397096: warthog
+- n02437312: Arabian camel, dromedary, Camelus dromedarius
+- n02483708: siamang, Hylobates syndactylus, Symphalangus syndactylus
+- n02099601: golden retriever
+- n02106166: Border collie
+- n02326432: hare
+- n02108089: boxer
+- n02486261: patas, hussar monkey, Erythrocebus patas
+- n02486410: baboon
+- n02487347: macaque
+- n02492035: capuchin, ringtail, Cebus capucinus
+- n02099267: flat-coated retriever
+- n02395406: hog, pig, grunter, squealer, Sus scrofa
+- n02109961: Eskimo dog, husky
+- n02101388: Brittany spaniel
+- n03187595: dial telephone, dial phone
+- n03733281: maze, labyrinth
+- n02101006: Gordon setter
+- n02115641: dingo, warrigal, warragal, Canis dingo
+- n02342885: hamster
+- n02120079: Arctic fox, white fox, Alopex lagopus
+- n02408429: water buffalo, water ox, Asiatic buffalo, Bubalus bubalis
+- n02133161: American black bear, black bear, Ursus americanus, Euarctos americanus
+- n02328150: Angora, Angora rabbit
+- n02410509: bison
+- n02492660: howler monkey, howler
+- n02398521: hippopotamus, hippo, river horse, Hippopotamus amphibius
+- n02510455: giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca
+- n02123045: tabby, tabby cat
+- n02490219: marmoset
+- n02109525: Saint Bernard, St Bernard
+- n02454379: armadillo
+- n02090379: redbone
+- n02443114: polecat, fitch, foulmart, foumart, Mustela putorius
+- n02361337: marmot
+- n02483362: gibbon, Hylobates lar
+- n02437616: llama
+- n02325366: wood rabbit, cottontail, cottontail rabbit
+- n02129165: lion, king of beasts, Panthera leo
+- n02100877: Irish setter, red setter
+- n02074367: dugong, Dugong dugon
+- n02504013: Indian elephant, Elephas maximus
+- n02363005: beaver
+- n02497673: Madagascar cat, ring-tailed lemur, Lemur catta
+- n02087394: Rhodesian ridgeback
+- n02127052: lynx, catamount
+- n02116738: African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus
+- n02488291: langur
+- n02114367: timber wolf, grey wolf, gray wolf, Canis lupus
+- n02130308: cheetah, chetah, Acinonyx jubatus
+- n02134418: sloth bear, Melursus ursinus, Ursus ursinus
 n02106662: German shepherd, German shepherd dog, German police dog, alsatian
 n02444819: otter
 n01882714: koala, koala bear, kangaroo bear, native bear, Phascolarctos cinereus
