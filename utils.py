@@ -1,7 +1,6 @@
 import openvino as ov
 import cv2
 import numpy as np
-import matplotlib.pyplot as plt
 
 core = ov.Core()
 model = core.read_model(model='models/v3-small_224_1.0_float.xml')
