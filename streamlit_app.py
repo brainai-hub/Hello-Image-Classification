@@ -34,6 +34,7 @@ if source_radio == "IMAGE":
         st.write("Click on 'Browse Files' in the sidebar to run inference on an image." )
         
 if source_radio == "WEBCAM":
+    st.sidebar.header("My Webcam Test")
     image = camera_input_live()
     uploaded_image = PIL.Image.open(image)
     uploaded_image_cv = cv2.cvtColor(numpy.array(uploaded_image), cv2.COLOR_RGB2BGR)
