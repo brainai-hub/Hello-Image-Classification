@@ -10,10 +10,8 @@ input_layer = compiled_model.input(0)
 output_layer = compiled_model.output(0)
 
 def preprocess(image, input_layer):
-    N, input_channels, input_height, input_width = input_layer.shape
-    resized_image = cv2.resize(image, (input_width, input_height))
-    transposed_image = resized_image.transpose(2, 0, 1)
-    input_image = np.expand_dims(transposed_image, 0)
+    input_image = cv2.resize(src=image, dsize=(224, 224))
+    input_image = np.expand_dims(input_image, 0)
     return input_image 
 
 def predict_image(image, conf_threshold):
