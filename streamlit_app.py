@@ -3,6 +3,7 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 import openvino as ov
+from camera_input_live import camera_input_live
 
 st.set_page_config(
     page_title="Hello Image Classification",
