@@ -33,7 +33,7 @@ if source_radio == "IMAGE":
             unsafe_allow_html=True
         )
         st.markdown(
-            f"<h3 style='color: blue;'>{' '.join(imagenet_classes)}</h3>", 
+            f"<h3 style='color: blue;'>{.join(imagenet_classes)}</h3>", 
             unsafe_allow_html=True
         )
 
