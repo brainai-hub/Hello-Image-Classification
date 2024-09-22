@@ -17,7 +17,7 @@ def preprocess(image, input_layer):
     return input_image 
 
 def predict_image(image, conf_threshold):
-    input_image = preprocess(image, input_layer_face)
+    input_image = preprocess(image, input_layer)
     result_infer = compiled_model([input_image])[output_layer]
     result_index = np.argmax(result_infer)
     imagenet_classes = imagenet_filename.read_text().splitlines()
