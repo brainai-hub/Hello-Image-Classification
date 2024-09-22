@@ -10,7 +10,7 @@ st.set_page_config(
     layout="centered",
     initial_sidebar_state="expanded",)
 
-st.title("Emotion Detection :sun_with_face:")
+st.title("Hello Image Classification :sun_with_face:")
 
 
 
