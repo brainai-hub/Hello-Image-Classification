@@ -1,8 +1,8 @@
 import streamlit as st
+import utils
 import cv2
 import matplotlib.pyplot as plt
 import numpy
-import openvino as ov
 import PIL
 from camera_input_live import camera_input_live
 
